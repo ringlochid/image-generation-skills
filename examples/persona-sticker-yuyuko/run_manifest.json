@@ -1,0 +1,141 @@
+{
+  "requested_model": "openai/gpt-image-2",
+  "returned_provider_model": "openai/gpt-image-2",
+  "requested_size": "2048x2048",
+  "actual_sheet_size": [
+    2048,
+    2048
+  ],
+  "source_lock": "Yuyuko Saigyouji / Touhou Project (high confidence)",
+  "qa_verdict": "PASS WITH CAVEATS: 16 cells, one large sticker per cell, no nested mini-sheets; some effects/outlines close to edges; exported with inset 6 then resized to 512.",
+  "exports": [
+    {
+      "file": "sticker_01.webp",
+      "bytes": 81336,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_02.webp",
+      "bytes": 78204,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_03.webp",
+      "bytes": 75178,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_04.webp",
+      "bytes": 72504,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_05.webp",
+      "bytes": 67694,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_06.webp",
+      "bytes": 68042,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_07.webp",
+      "bytes": 74978,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_08.webp",
+      "bytes": 79134,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_09.webp",
+      "bytes": 74232,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_10.webp",
+      "bytes": 63170,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_11.webp",
+      "bytes": 70738,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_12.webp",
+      "bytes": 74912,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_13.webp",
+      "bytes": 68154,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_14.webp",
+      "bytes": 75758,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_15.webp",
+      "bytes": 68844,
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "file": "sticker_16.webp",
+      "bytes": 74140,
+      "size": [
+        512,
+        512
+      ]
+    }
+  ]
+}

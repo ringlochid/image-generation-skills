@@ -1,0 +1,19 @@
+{
+  "workflow": "character-sheet-studio: source lock -> gpt-image-2 3840x2160 art-only sheet -> visual QA -> deterministic PDF dossier",
+  "requested_model": "openai/gpt-image-2",
+  "returned_provider_model": "openai/gpt-image-2",
+  "requested_size": "3840x2160",
+  "actual_sheet_size": [
+    3840,
+    2160
+  ],
+  "qa_verdict": "PASS; caveat: main pose dynamic/partly fan-obscured, but useful turnarounds/expressions/accessory/palette panels and no text/logos/watermark.",
+  "files": [
+    "identity_reference.jpg",
+    "source_lock.md",
+    "brief.md",
+    "character_sheet.png",
+    "preview.jpg",
+    "yuyuko_character_dossier.pdf"
+  ]
+}

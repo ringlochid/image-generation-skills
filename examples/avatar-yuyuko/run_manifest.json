@@ -1,0 +1,22 @@
+{
+  "workflow": "avatar-variant-studio: source lock -> gpt-image-2 2048x2048 2x2 sheet -> QA -> deterministic export with inset 8 (chosen over inset 16 to reduce hat/hair trimming; QA found no line residue)",
+  "requested_model": "openai/gpt-image-2",
+  "returned_provider_model": "openai/gpt-image-2",
+  "requested_size": "2048x2048",
+  "actual_sheet_size": [
+    2048,
+    2048
+  ],
+  "sheet_qa": "PASS WITH CAVEATS: consistent Yuyuko identity and no text/borders; abrupt background changes create visible seams in sheet; some subjects close to edges.",
+  "export_qa": "PASS WITH CAVEATS: no black/cell-line residue or divider artifacts in individual crops; some hat/hair/fan areas close to edges but acceptable.",
+  "final_exports": [
+    "exports_inset8/avatar_01_512.jpg",
+    "exports_inset8/avatar_02_512.jpg",
+    "exports_inset8/avatar_03_512.jpg",
+    "exports_inset8/avatar_04_512.jpg",
+    "exports_inset8/avatar_01_1024.jpg",
+    "exports_inset8/avatar_02_1024.jpg",
+    "exports_inset8/avatar_03_1024.jpg",
+    "exports_inset8/avatar_04_1024.jpg"
+  ]
+}
