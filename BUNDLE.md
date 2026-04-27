@@ -31,12 +31,12 @@ Installable local skill bundle for image-generation workflows.
 Curated accepted examples live in `examples/`:
 
 - `persona-sticker-yuyuko/`
-- `persona-sticker-swordswoman/`
+- `persona-sticker-youmu/`
 - `avatar-yuyuko/`
 - `character-sheet-yuyuko/`
 - `character-sheet-starlit-courier/`
 
-Bulky transient runs live outside the bundle at `/home/ubuntu/leo/artifacts/image-generation-skills-test-runs-20260426-27/`.
+Bulky transient runs should live outside the installable bundle.
 
 ## Core rule
 
@@ -45,8 +45,8 @@ Use `openai/gpt-image-2` for production generation unless fallback is explicitly
 ## Installation
 
 ```bash
-SRC=/home/ubuntu/leo/skills/image-generation-skills
-DST=/home/ubuntu/.openclaw/workspaces/orin/skills
+SRC=$PWD
+DST=/path/to/openclaw/workspace/skills
 for d in character-source-lock visual-review-gate persona-sticker-pack avatar-variant-studio character-sheet-studio brand-mark-studio shared; do
   rm -rf "$DST/$d"
   cp -a "$SRC/$d" "$DST/$d"
